@@ -1,0 +1,131 @@
+.container-main{
+    width: 100%;
+}
+.container-main .video video{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    z-index: -2;
+}
+.overlay .heading h1{
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Concert One', cursive;
+}
+.overlay .heading h3{
+    font-size: 30px;
+    color: #fff;
+}
+.overlay .btn button{
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FF5672;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.overlay .center .link a{
+    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #fff;
+    gap: 5px;
+}
+.mission{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission h1{
+    text-align: center;
+}
+.mission .para{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 22px;
+    text-align: center;
+}
+.hr{
+    width: 1250px;
+    height: 5px;
+    background-color: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.benifits-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.benifits-center .benifit-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.benifits-center .benifit-div .benifit{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 29px;
+    margin-top: 50px;
+}
+.benifits-center .benifit-div .benifit img{
+    height: 70px;
+}
+.benifits-center .div2{
+    display: flex;
+    gap: 30px;
+}
+.queries-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.queries-main .queries-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.queries-main .queries-center .calls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.queries-center .calls img{
+    height: 35px;
+    width: 35px;
+}
+.queries-center .calls .div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: black;
+}
+a{
+    color: black;
+}

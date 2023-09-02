@@ -1,0 +1,28 @@
+
+/* feature styles */
+.features-conatiner-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 500px;
+}
+.features-conatiner-main .features-center h1{
+    font-size: 65px;
+    text-align: center;
+}
+.features-conatiner-main .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 70px;
+}
+.features-conatiner-main .featureimg{
+    height: 170px;
+    width: 170px;
+}
+.features-conatiner-main .eachitem p{
+    font-size: 20px;
+    margin-top: 35px;
+}

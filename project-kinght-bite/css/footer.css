@@ -1,0 +1,13 @@
+footer{
+    background: linear-gradient(90deg, rgb(199, 123, 244) 0%, rgb(255, 86, 114) 100%);
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px -1px 16px -1px rgba(0,0,0,0.75);
+}
+footer p{
+    color: #fff;
+}

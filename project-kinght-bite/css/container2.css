@@ -1,0 +1,17 @@
+/* container2 styles */
+.container2-main{
+    background-image: url("../assets/banner-1.webp");
+    width: 100%;
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2-main h1{
+    font-size: 90px;
+    font-family: 'Concert One', cursive;
+    color: #ffffff;
+}

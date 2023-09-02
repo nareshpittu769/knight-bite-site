@@ -1,0 +1,45 @@
+.menu-container-main{
+    width: 100%;
+}
+.menu-con1-center{
+    background-image: url("../assets/banner\ \(1\).webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-con1-center .grid{
+    display: grid;
+    grid-template-columns: 168px 294px 294px;
+    grid-template-rows: 225px 225px 225px;
+    align-items:center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 80px;
+}
+.menu-con1-center .grid .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.menu-con1-center .grid .item .img-sec img{
+   height: 130px;
+}
+.menu-con1-center .grid .item h1{
+    font-size:45px ;
+    font-family: 'Concert One', cursive;
+    color: white;
+}
+.menu-con1-center .grid .item .plus-icon img{
+    height: 25px;
+    margin-top: 20px;
+}

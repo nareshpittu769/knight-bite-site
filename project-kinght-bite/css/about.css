@@ -1,0 +1,96 @@
+.about-container-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ab-con1-center{
+    background-image: url('../assets/banner.webp');
+    height: 710px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.ab-con1-center h1{
+    font-size: 60px;
+    font-family: 'Concert One', cursive;
+    color: #fff;
+}
+
+/* features */
+.flex-re{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 100px;
+}
+.flex-re .first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 150px;
+    gap: 170px;
+}
+.flex-re .first .img-sec{
+    height: 90px;
+
+}
+.flex-re .first .img-sec img{
+    height: inherit;
+}
+.flex-re .first p{
+    -webkit-line-clamp: 4;
+    font-size: 21px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.flex-rev-center .second{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    gap: 55px;
+}
+.flex-rev-center .second .img-sec img{
+    height: 360px;
+}
+.flex-rev-center .second .par1{
+    margin-bottom: 70px
+}
+.flex-rev-center .second p{
+    font-size: 21px;
+    -webkit-line-clamp: 4;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.flex-rev-center .second.rev{
+    flex-direction: row;
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+.location .Locations h1{
+    margin-bottom: 30px;
+}
+.location .Locations .hours{
+    font-weight: bold;
+    margin-right: 5px;
+}
+.location .Locations .loco{ 
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 19px;
+}
+.location .social-div .social-links{
+   margin-top: 90px;
+   margin-right: 100px;
+}

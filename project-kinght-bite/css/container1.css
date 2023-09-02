@@ -1,0 +1,77 @@
+/* container1 styles */
+.container-main{
+    background-image: url("../assets/app-link-background.svg");
+    width: 100%;
+    min-height: 740px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.con1-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+}
+.con1-center h1{
+    font-size: 87px;
+    color: #ffffff;
+    font-family: 'Concert One', cursive;
+}
+.container-main .btn{
+    padding: 13px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #FF5672;
+    color: #ffffff;
+    margin-top: 40px;
+    border: none;
+    transition: var(--transition);
+    animation-name: anime;
+    animation-duration: .6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+.container-main .btn:hover{
+    transform: scale(1.1);
+}
+.span{
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.playbtn{
+    width: 200px;
+    height: 90px;
+    transition: all .7s;
+}
+.playbtn:hover{
+    transform: scale(0.9);
+}
+
+@keyframes anime{
+    0%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
